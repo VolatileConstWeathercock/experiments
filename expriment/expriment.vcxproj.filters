@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Mode">
+      <UniqueIdentifier>{7623b127-411a-4977-bced-cca0a1808baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{84f8878d-dfa6-42e9-aa15-86a3fea011f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task">
+      <UniqueIdentifier>{7ce200d0-6a74-4ab1-8130-90a94dcf7f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gate">
+      <UniqueIdentifier>{08468da2-67ef-486e-b4b8-90d992dc48bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,6 +36,27 @@
     <ClInclude Include="targetver.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="Mode\Mode_Cfg.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Mode\Mode.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Manager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Task\Task.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Manager_Cfg.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate\Gate.h">
+      <Filter>Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate\Gate_Cfg.h">
+      <Filter>Gate</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -31,6 +64,27 @@
     </ClCompile>
     <ClCompile Include="expriment.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Mode\Mode_Cfg.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Mode\Mode.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\Manager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\Task.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\Manager_Cfg.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate\Gate.cpp">
+      <Filter>Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate\Gate_Cfg.cpp">
+      <Filter>Gate</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
